@@ -37,13 +37,15 @@ You can add other folders inside of `packages/` if you know what you're doing an
 
 ## 🏁 Start the app
 
+- to run the project run these commands: `npm install`
+- `npx expo start`
+- select ios version
+- 
+
 - Install dependencies: `yarn`
 
 - Next.js local dev: `yarn web`
 
-- to run the project run these commands: `npm install`
-- `npx expo start`
-- select ios version
 
 To run with optimizer on in dev mode (just for testing, it's faster to leave it off): `yarn web:extract`. To build for production `yarn web:prod`.
 
