@@ -6,10 +6,6 @@ npm create tamagui
 
 ## 🔦 About
 
-This monorepo is a starter for an Expo + Next.js + Tamagui + Solito app.
-
-Many thanks to [@FernandoTheRojo](https://twitter.com/fernandotherojo) for the Solito starter monorepo which this was forked from. Check out his [talk about using expo + next together at Next.js Conf 2021](https://www.youtube.com/watch?v=0lnbdRweJtA).
-
 ## 📦 Included packages
 
 - [Tamagui](https://tamagui.dev) 🪄
@@ -53,6 +49,9 @@ To run with optimizer on in dev mode (just for testing, it's faster to leave it 
 To see debug output to verify the compiler, add `// debug` as a comment to the top of any file.
 
 - Expo local dev: `yarn native`
+- to run the project run these commands: 'npm install'
+- 'npx expo start'
+- select ios version
 
 ## UI Kit
 
