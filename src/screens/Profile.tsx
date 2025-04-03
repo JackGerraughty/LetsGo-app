@@ -33,7 +33,8 @@ const ProfileScreen= ({ navigation }) => {
 
   return (
     <ScrollView>
-      <YStack backgroundColor="#fff" paddingTop="$10">
+
+      <YStack backgroundColor="#FAF3FF" paddingTop="$10">
         {/* Top Row Icons */}
         <XStack alignItems="center" paddingHorizontal="$4" paddingVertical="$2">
         {/* Left Spacer - matches icon group width or more */}
@@ -88,11 +89,11 @@ const ProfileScreen= ({ navigation }) => {
 
           {/* Buttons: Edit + Share */}
           <XStack marginTop="$3" space="$3">
-            <Button size="$3" theme="active">
+            <Button size="$3" theme="active" backgroundColor="#d946ef" color={'white'} fontWeight={'bold'}>
               Edit Profile
             </Button>
-            <Button size="$3" theme="active">
-              Share Profile
+            <Button size="$3" theme="active" backgroundColor="#d946ef" color={'white'} fontWeight={'bold'}>
+              Create Event
             </Button>
 
           </XStack>
