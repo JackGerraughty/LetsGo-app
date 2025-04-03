@@ -40,7 +40,7 @@ You can add other folders inside of `packages/` if you know what you're doing an
 - to run the project run these commands: `npm install`
 - `npx expo start`
 - select ios version
-- 
+  
 
 - Install dependencies: `yarn`
 
